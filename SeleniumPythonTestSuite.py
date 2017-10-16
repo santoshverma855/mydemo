@@ -9,3 +9,4 @@ home_page_test = unittest.TestLoader().loadTestsFromTestCase(HomePageTest)
 test_suite = unittest.TestSuite([home_page_test, search_text])
 # run the suite
 unittest.TextTestRunner(verbosity=4).run(test_suite)
+#uuuuuu
